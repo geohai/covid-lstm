@@ -1,4 +1,4 @@
-# Geospatial Human-Centered Artificial Intelligence Lab @CuBoulder
+# Geospatial Human-Centered Artificial Intelligence Lab. CuBoulder
 
 ## COVID-LSTM: Predicting COVID-19 cases at the county-level in the US using a stacked LSTM.
 
