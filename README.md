@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Geospatial Human-Centered Artificial Intelligence Lab @CuBoulder
 
-You can use the [editor on GitHub](https://github.com/geohai/covid-lstm/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+## COVID-LSTM: Predicting COVID-19 cases at the county-level in the US using a stacked LSTM.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+COVID-LSTM is a stacked LSTM model that uses ...
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Team Members:
 
-```markdown
-Syntax highlighted code block
+1. **Benjamin Lucas** (Postdoctoral Research Associate)
+2. **Behzad Vahedi** (PhD Student)
+3. **Mortreza Karimzadeh** (Assisstant Professor)
 
-# Header 1
-## Header 2
-### Header 3
+The Python code will be available [here](https://github.com/geohai/covid-lstm) soon!
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+
+To run:
+
+(1) Open the 'code' folder on the comand line
+
+(2) run: `python3 run_forecast.py -d YYYY-MM-DD`, where YYYY-MM-DD is the forecast_date. For example:
+
+```python
+python3 run_forecast.py -d 2020-12-27
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+(3) Wait approx 30-40 minutes.
 
-### Jekyll Themes
+(4) Find the resulting csv file in the 'results' folder. It contains county-level case predictions for 1-, 2-, 3-, and 4-wk horizons in the format requested by the COVID-19 ForecastHub submission guidelines.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/geohai/covid-lstm/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Please note that the forecast date must be a Sunday in accordance with the COVID-19 ForecastHub submission guidelines.
+
+
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [metadata](https://github.com/geohai/covid-lstm/blob/main/metadata.yml) or [contact us](mailto:benjamin.Lucas@colorado.edu) and we’ll help you sort it out.
