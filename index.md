@@ -8,9 +8,9 @@ COVID-LSTM is a stacked LSTM model that uses ...
 
 ### Team Members:
 
-1. **Benjamin Lucas** (Postdoctoral Research Associate)
-2. **Behzad Vahedi** (PhD Student)
-3. **Mortreza Karimzadeh** (Assisstant Professor)
+- **Benjamin Lucas** (Postdoctoral Research Associate)
+- **Behzad Vahedi** (PhD Student)
+- **Mortreza Karimzadeh** (Assisstant Professor)
 
 The Python code will be available [here](https://github.com/geohai/covid-lstm) soon!
 
