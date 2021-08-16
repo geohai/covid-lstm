@@ -2,6 +2,14 @@
 
 Python code for predicting COVID-19 cases at the county-level in the US using a stacked LSTM.
 
+Package requirements:
+    tensorflow (tf-gpu)
+    pandas
+    geopandas
+    scikit-learn 
+    keras
+
+
 To run:
 
 (1) Open the 'code' folder on the comand line
