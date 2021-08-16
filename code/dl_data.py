@@ -7,6 +7,14 @@ import requests, zipfile, io
 from zipfile import ZipFile
 from scipy.stats import linregress
 import time
+import platform
+
+
+
+if platform.system() == 'Windows':
+    conversion_format = '%#m/%#d/%y'
+else:
+    conversion_format = '%-m/%-d/%y'
 
 def get_us_counties(contiguous=True):
 
@@ -50,8 +58,8 @@ def get_JH_covid_data(target, smooth):
     while current_date > first_date:
 
         #For unix, replace # with - in the time format
-        current_col = current_date.strftime('%-m/%-d/%y') #replace # with - in Mac or Linux
-        previous_col = previous_date.strftime('%-m/%-d/%y')
+        current_col = current_date.strftime(conversion_format) 
+        previous_col = previous_date.strftime(conversion_format)
         jh_covid_df[previous_col] = np.where(jh_covid_df[previous_col] > jh_covid_df[current_col], jh_covid_df[current_col], jh_covid_df[previous_col])
         current_date = current_date - timedelta(days=1)
         previous_date = previous_date - timedelta(days=1)
@@ -70,7 +78,7 @@ def combine_data(forecast_date, contiguous_counties, covid_df, covid_df_non_smoo
     T_start = T_end - timedelta(weeks=1) # Saturday
 
     dates = [T_end, T_start]
-    dates_case_str = [item.strftime('%-m/%-d/%y') for item in dates]
+    dates_case_str = [item.strftime(conversion_format) for item in dates]
 
     jh_df = covid_df[['FIPS', *dates_case_str]]
 
