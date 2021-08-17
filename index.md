@@ -36,6 +36,10 @@ python3 run_forecast.py -d 2020-12-27
 Please note that the forecast date must be a Sunday in accordance with the COVID-19 ForecastHub submission guidelines.
 
 
+### Acknowledgement
+
+Research supporting these models was supported by **research development funding from the Institute of Behavioral Science**, and by the Eunice Kennedy Shriver National Institute of Child Health & Human Development of the National Institutes of Health through the University of Colorado Population Center (CUPC) under Award Number P2CHD066613. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
 
 ### Support or Contact
 
