@@ -12,7 +12,7 @@ COVID-LSTM is a stacked LSTM model that uses ...
 - **Behzad Vahedi** (PhD Student)
 - **Mortreza Karimzadeh** (Assisstant Professor)
 
-The Python code is available [here](https://github.com/geohai/covid_lstm) soon!
+The Python code is available [here](https://github.com/geohai/covid_lstm).
 
 
 
@@ -45,4 +45,4 @@ _This work was supported by the Population Council, Inc. and the University of C
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [metadata](https://github.com/geohai/covid-lstm/blob/main/metadata.yml) or [contact us](mailto:benjamin.Lucas@colorado.edu) and we’ll help you sort it out.
+Having questions about this project? [contact us](mailto:benjamin.Lucas@colorado.edu) and we’ll help you sort it out.
