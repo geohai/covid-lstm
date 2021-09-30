@@ -39,7 +39,7 @@ Please note that the forecast date must be a Sunday in accordance with the COVID
 ### Acknowledgement
 
 
-_This work was supported by the Population Council, Inc. and the University of Colorado Population Center (CUPC) funded by Eunice Kennedy Shriver National Institute of Child Health & Human Development of the National Institutes of Health (P2CHD066613). The content is solely the responsibility of the authors, and does not reflect the views of the Population Council, Inc. or official views of the NIH, CUPC, or the University of Colorado._
+_This work was supported by the Population Council, and the University of Colorado Population Center (CUPC) funded by Eunice Kennedy Shriver National Institute of Child Health & Human Development of the National Institutes of Health (P2CHD066613). The content is solely the responsibility of the authors, and does not reflect the views of the Population Council, or official views of the NIH, CUPC, or the University of Colorado._
 
 
 
