@@ -14,9 +14,22 @@ COVID-LSTM is a stacked LSTM model that uses ...
 
 The Python code is available [here](https://github.com/geohai/covid_lstm).
 
+To cite this work, please use
 
+@article{lucas2021spatiotemporal,
+  title={A spatiotemporal machine learning approach to forecasting COVID-19 incidence at the county level in the United States},
+  author={Lucas, Benjamin and Vahedi, Behzad and Karimzadeh, Morteza},
+  journal={arXiv preprint arXiv:2109.12094},
+  year={2021}
+}
 
+And for more background, please refer to:
 
+@article{vahedi2021predicting,
+  title={Predicting County-Level COVID-19 Cases using Spatiotemporal Machine Learning: Modeling Human Interactions using Social Media and Cell-Phone Data},
+  author={Vahedi, Behzad and Karimzadeh, Morteza and Zoraghein, Hamidreza},
+  year={2021}
+}
 
 
 To run:
