@@ -12,12 +12,15 @@ Package requirements:
 ```
 To cite this work, please use
 
-@article{lucas2021spatiotemporal,
-  title={A spatiotemporal machine learning approach to forecasting COVID-19 incidence at the county level in the United States},
+@article{lucas2022covidlstm,
+  title={A spatiotemporal machine learning approach to forecasting COVID-19 incidence at the county level in the USA},
   author={Lucas, Benjamin and Vahedi, Behzad and Karimzadeh, Morteza},
-  journal={arXiv preprint arXiv:2109.12094},
-  year={2021}
+  journal={International Journal of Data Science and Analytics},
+  pages={1--20},
+  year={2022},
+  publisher={Springer}
 }
+
 
 And for more background, please refer to:
 
