@@ -76,7 +76,3 @@ This work was supported by:
 - The University of Colorado Population Center (CUPC), funded by the *Eunice Kennedy Shriver National Institute of Child Health & Human Development* (P2CHD066613).
 
 The content is solely the responsibility of the authors and does not necessarily represent the official views of the Population Council, the NIH, CUPC, or the University of Colorado.
-
----
-
-This formatting improves the readability of your text, highlights key sections, and provides better citation handling for ease of reference.
